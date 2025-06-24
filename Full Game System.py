@@ -25,10 +25,10 @@ port = "COM8"
 baud_rate = 115200
 
 # Firebase setup
-cred = credentials.Certificate(r"C:\Users\irfan\Desktop\Studies\FYP (Python)\FYP_privatekey.json")
+cred = credentials.Certificate(r"your-private-key")
 firebase_admin.initialize_app(cred, {
     'storageBucket': 'lower-limb-telerehabilitation'})
-API_KEY = "AIzaSyCAhndhnZuDg8UJjahoW6ubSM_OXkDFOWs"
+API_KEY = "your-api-key-here"
 
 # Initialize Firestore
 db = firestore.client()
