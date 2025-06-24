@@ -1,5 +1,0 @@
-# Ignore Firebase private credentials
-privatekey.json
-.env
-.env.local
-firebaseConfig.js
